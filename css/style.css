@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: blue;
+}
+.navbar h1,
+.navbar a{
+    color: #fff;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 90px);
+    margin-top: 90px;
+}
+#footer{
+    display: flex;
+    background-color: coral;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#footer a{
+    color: white;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+#footer a:hover{
+    color: black;
+}
+table{
+    margin-top: 20px;
+    width: 80%;
+    border-collapse: collapse;
+}
+table th,
+ table td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+table th{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(odd){
+background-color: skyblue;
+}
+.center-year{
+    text-align:center;
+}
+.recepies-container{
+margin-top: 10px;
+display: flex;
+width: 100%;
+}
+.recepie{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+}
+.recepie h2{
+    margin-bottom: 10px;
+}
+.recepie li{
+    padding: 5px;
+    
+}
